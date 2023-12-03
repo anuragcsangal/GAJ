@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaDiscord } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -60,9 +61,9 @@ export default function Home() {
           <p className="py-5 font-bold text-zinc-400">
             LET’S GET A FUCKING JOB BY FEBRUARY 2024
           </p>
-          <div className="mt-5 text-purple-900 text-xl">
-            <Link href="https://discord.gg/s4Wwtat928">
-              👉 Click here Join Discord
+          <div className="mt-5 text-violet-700 text-xl">
+            <Link href="https://discord.gg/s4Wwtat928" className="flex">
+              <FaDiscord size={25} /> <p>&nbsp;Click here to join Discord</p>
             </Link>
           </div>
         </div>
